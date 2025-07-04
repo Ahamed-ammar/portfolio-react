@@ -1,0 +1,15 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+
+h1{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: rgb(10, 154, 10);
+    font-size: 100px;
+}

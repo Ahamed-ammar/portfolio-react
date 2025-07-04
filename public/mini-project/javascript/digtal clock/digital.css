@@ -1,0 +1,15 @@
+body,h1{
+    background-color: black;
+    margin: 0px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-family: monospace;
+    font-size: 100px;
+}

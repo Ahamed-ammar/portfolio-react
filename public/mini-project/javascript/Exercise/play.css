@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(93, 214, 214);
+    background-image: url(/Exercise/pngtree-futuristic-wheel-with-digital-clock-picture-image_2743982.jpg);
+}
+#head
+{
+    display: flex;
+    justify-content: center;
+}

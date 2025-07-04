@@ -1,0 +1,30 @@
+.heading {
+  font-size: large;
+  color: brown;
+}
+.dash_btn {
+  margin-top: 2rem;
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: var(--font-medium);
+}
+.dash_container {
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 3rem;
+    justify-content: center;
+    border-color: black 2px;
+}
+.dash1_container {
+    margin-top: 4rem;
+    grid-template-columns: repeat(2, 400px);
+    column-gap: 3rem;
+    justify-content: center;
+    border-color: black 2px;
+}
+.dash_btn:hover {
+  background-color: #333;
+}

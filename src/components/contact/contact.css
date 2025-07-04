@@ -1,0 +1,65 @@
+/* Contact Section */
+.contact_container {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--container-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Form Container */
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--mb-1-5);
+  }
+  
+  /* Input Fields Container */
+  .contact_inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--mb-1);
+  }
+  
+  /* Input + Textarea Styling */
+  .contact_inputs input,
+  .contact_form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid hsl(var(--hue), var(--sat), 90%);
+    border-radius: 0.75rem;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .contact_inputs input:focus,
+  .contact_form textarea:focus {
+    border-color: var(--title-color);
+  }
+  
+  /* Textarea height */
+  .contact_form textarea {
+    resize: none;
+    min-height: 180px;
+  }
+  
+  /* Button from global `.button` class already defined */
+  /* Add spacing below if needed */
+  .contact_form .button {
+    margin-top: var(--mb-1);
+    align-self: start;
+  }
+  
+  /* Responsive Fixes */
+  @media screen and (max-width: 576px) {
+    .contact_inputs {
+      grid-template-columns: 1fr;
+    }
+  }
+  
