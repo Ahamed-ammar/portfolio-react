@@ -39,3 +39,31 @@ text-align: center;
 .warning{
     color: rgb(240, 40, 18);
 }
+/*for large devices*/
+@media screen and (max-width: 992px) {
+    .project_container {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+  
+  /*for medium devices*/
+
+@media screen and (max-width: 576px) {
+    .project_container{
+        grid-template-columns: 1fr;
+    }
+    .project_content {
+        padding: 1.5rem;
+    }
+}
+
+/*for small devices*/
+@media screen and (max-width: 350px) {
+    .skills_box{
+        column-gap: 1.25rem;
+    }
+    .skills_name {
+        font-size: var(--small-font-size);
+    }
+}
