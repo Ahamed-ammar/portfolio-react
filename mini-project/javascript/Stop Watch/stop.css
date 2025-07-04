@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(197, 216, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    border: 5px solid;
+    border-radius: 15px;
+}
+#display{
+    font-size: 90px;
+    font-family: monospace;
+}
+#controls button{
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#Start{
+    background-color: rgb(122, 216, 122);
+    color: white;
+}
+#Start:hover{
+    background-color: rgb(108, 196, 108);
+    color: white;
+}
+#Stop{
+    background-color: rgb(180, 208, 104);
+    color: white;
+}
+#Stop:hover{
+    background-color: rgb(142, 168, 71);
+    color: white;
+}
+#Reset{
+    background-color: rgb(216, 182, 122);
+    color: white;
+}
+
+#Reset:hover{
+    background-color: rgb(217, 169, 87);
+    color: white;
+}

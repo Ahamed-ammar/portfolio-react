@@ -1,0 +1,20 @@
+.mybtn{
+    font-size: 3rem;
+    padding: 10px;
+    background-color: #6bcced;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+.hover{
+    background-color: #41b8e0;
+    padding: 10px 15px;
+}
+.disabled{
+    background-color: rgb(204, 202, 202);
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
