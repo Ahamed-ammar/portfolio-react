@@ -42,7 +42,7 @@ text-align: center;
 /*for large devices*/
 @media screen and (max-width: 992px) {
     .project_container {
-        grid-template-columns: max-content;
+        grid-template-columns: 1fr;
         row-gap: 2rem;
     }
 }
