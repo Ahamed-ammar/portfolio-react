@@ -18,5 +18,5 @@ export const Project3 = () => {
         <i className="uil uil-arrow-up-right button_icon"></i>
       </Link>
     </div>
-  );
+  ); 
 };
