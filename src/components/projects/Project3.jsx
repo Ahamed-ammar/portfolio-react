@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Project3 = () => {
   return (
     <div className="project_content">
-      <h1 className="project_title">Project 3 Test</h1>
+      <h1 className="project_title">Project 3 Test 1</h1>
       <span className="project_subtitle">Mini Projects</span>
       <p className="project_description">
       These mini projects all are builded by using HTML, CSS, JS and also
