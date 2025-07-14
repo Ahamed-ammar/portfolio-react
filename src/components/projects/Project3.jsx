@@ -13,7 +13,7 @@ export const Project3 = () => {
             do these small projects it helps me to learn javascript oriended
             libraries and frameworks like React.js, Next.js and Express.js.
       </p>
-      <Link to="/dashboard"  target="_blank" className="button">
+      <Link to="/dashboard" className="button">
         Visit My Mini Project{" "}
         <i className="uil uil-arrow-up-right button_icon"></i>
       </Link>
