@@ -11,7 +11,7 @@ export const Project3 = () => {
         These mini projects all are builded by using HTML, CSS, JS and also it's
         helps to learn javascript deeply.After learn javascript through do these
         small projects it helps me to learn javascript oriended libraries and
-        frameworks like React.js, Next.js and Express.js...
+        frameworks like React.js, Next.js and Express.js
       </p>
       <Link to="/dashboard" className="button">
         Visit My Mini Project{" "}
