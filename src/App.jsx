@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import "./App.css";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/header/Header';
 import Home from './components/home/home';
 import About from './components/about/about';
@@ -26,12 +26,10 @@ const FullHome = () => (
 
 const App = () => {
   return (
-    <BrowserRouter basename="/portfolio-react">
-      <Routes>
-        <Route path="/" element={<FullHome />} />
-        <Route path="/dashboard" element={<Dash />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<FullHome />} />
+      <Route path="/dashboard" element={<Dash />} />
+    </Routes>
   );
 };
 
