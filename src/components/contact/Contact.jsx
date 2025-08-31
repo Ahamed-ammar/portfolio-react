@@ -13,20 +13,23 @@ export const Contact = () => {
     setLoading(true);
 
     emailjs
-      .sendForm("service_2mvtxqu", "template_r1sc15d", form.current, "l69z1bCcdEsolf_l5")
+      .sendForm(
+        "service_2mvtxqu",      // ✅ your service ID
+        "template_r1sc15d",     // ✅ your template ID
+        form.current,           // ✅ form reference
+        "l69z1bCcdEsolf_l5"     // ✅ your public key
+      )
       .then(
         () => {
           toast.success("Message Sent Successfully!");
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
+          console.error("EmailJS Error:", error.text);
           toast.error("Failed to send message. Try again.");
         }
       )
-      .finally(() => {
-        setLoading(false);
-      });
+      .finally(() => setLoading(false));
   };
 
   return (
@@ -37,10 +40,26 @@ export const Contact = () => {
       <div className="contact_container container grid">
         <form ref={form} onSubmit={sendEmail} className="contact_form">
           <div className="contact_inputs">
-            <input type="text" name="user_name" placeholder="Your Name" required />
-            <input type="email" name="user_email" placeholder="Your Email" required />
+            {/* ✅ Make sure names match your EmailJS template variables */}
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Your Email"
+              required
+            />
           </div>
-          <textarea name="message" rows="7" placeholder="Your Message" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          />
           <button type="submit" className="button" disabled={loading}>
             {loading ? "Sending..." : "Send Message"}
           </button>

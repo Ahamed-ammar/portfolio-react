@@ -8,7 +8,7 @@ export const Info = () => {
         <a href="https://codolio.com/profile/ahamed-ammar07" target="_blank">
           <h3 className="about_title">DSA & CP</h3>
         </a>
-        <span className="about_subtitle">550+ Problems Solved</span>
+        <span className="about_subtitle">600+ Problems Solved</span>
       </div>
 
       <div className="about_box">

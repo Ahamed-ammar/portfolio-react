@@ -16,7 +16,7 @@ export const Backend = () => {
           <div className="skills_data">
             <i class="fa-solid bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">Java</h3>
+              <h3 className="skills_name">Spring Boot</h3>
               <span className="skills_level">Intermidiate</span>
             </div>
           </div>

@@ -23,7 +23,7 @@ export const Frontend = () => {
             <i class="fa-solid bx-badge-check"></i>
             <div>
               <h3 className="skills_name">JavaScript</h3>
-              <span className="skills_level">Basic</span>
+              <span className="skills_level">Intermidiate</span>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export const Frontend = () => {
           <div className="skills_data">
             <i class="fa-solid bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">Bootstrap</h3>
+              <h3 className="skills_name">Tailwind</h3>
               <span className="skills_level">Intermidiate</span>
             </div>
           </div>
