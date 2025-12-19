@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./header.css";
+import { ThemeToggle } from "../theme/ThemeToggle";
+
 export const Header = () => {
   const [Toggle, showMenu] = useState(false);
   return (
     <header className="header">
+      <ThemeToggle />
       <nav className="nav container">
         <a href="index.html" className="nav_logo">
           Ahamed Ammar
