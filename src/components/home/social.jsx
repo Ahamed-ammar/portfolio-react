@@ -28,7 +28,7 @@ const Social = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <SiLeetcode size={22} color="black" /> {/* LeetCode icon */}
+        <SiLeetcode size={22} /> {/* LeetCode icon now uses currentColor so it follows the theme */}
       </a>
     </div>
   );
