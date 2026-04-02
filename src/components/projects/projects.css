@@ -29,7 +29,7 @@ text-align: center;
 .project_nav {
     background-color: var(--title-color);
 }
-.project_description{
+.project_description > li{
     max-width: initial;
     margin-bottom: 30px;
 }

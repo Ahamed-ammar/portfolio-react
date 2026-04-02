@@ -150,6 +150,15 @@ img{
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
+.white-btn{
+  margin-left: 40px;
+  display: inline-block;
+  border: black solid 2px;
+  color: black;
+  padding: 1.2rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
 
 .button:hover {
   color: #fff;
