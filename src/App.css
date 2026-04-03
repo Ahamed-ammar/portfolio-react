@@ -183,7 +183,7 @@ img{
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
-  .button{
+  .button, .white-btn {
     padding: 1rem 1.75rem;
   }
   .button_icon{
@@ -204,11 +204,56 @@ img{
     margin-bottom: var(--mb-3);
   }
 }
-
+/* 
 @media screen and (max-width: 576px) {
-  
-}
+  .btn_wrapper {
+    display: flex;
+  }
+  .button{
+    display: inline;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+  }
+  .white-btn{
+    margin-left: 40px;
+    display: inline;
+    border: black solid 2px;
+    color: black;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+  }
+} */
+@media screen and (max-width: 576px) {
+  .btn_wrapper {
+    display: flex;
+    gap: 10px;          /* spacing between buttons */
+    width: 100%;
+  }
 
+  .button,
+  .white-btn {
+    flex: 1;            /* equal width buttons */
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.7em;
+    font-weight: var(--font-medium);
+  }
+
+  .button {
+    background-color: var(--title-color);
+    color: var(--container-color);
+  }
+
+  .white-btn {
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+  }
+}
 /*for small devices*/
 @media screen and (max-width: 350px) {
   :root{
