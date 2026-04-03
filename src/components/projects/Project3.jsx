@@ -21,17 +21,19 @@ export const Project3 = () => {
           </li>
         </ul>
       </div>
-      <a href="https://movie-mate-3.vercel.app/" className="button">
-        {" "}
-        Visit App <i class="uil uil-arrow-up-right button_icon"></i>
-      </a>
-      <a
-        href="https://github.com/Ahamed-ammar/CuratorAi-SkillTracker"
-        target="blank"
-        className="white-btn"
-      >
-        src code <i class="uil uil-arrow-up-right button_icon"></i>
-      </a>
+      <div className="btn_wrapper">
+        <a href="https://movie-mate-3.vercel.app/" className="button">
+          {" "}
+          Visit App <i class="uil uil-arrow-up-right button_icon"></i>
+        </a>
+        <a
+          href="https://github.com/Ahamed-ammar/CuratorAi-SkillTracker"
+          target="blank"
+          className="white-btn"
+        >
+          src code <i class="uil uil-arrow-up-right button_icon"></i>
+        </a>
+      </div>
     </div>
   );
 };
